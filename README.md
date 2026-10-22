@@ -87,6 +87,8 @@ La imagen de Ubuntu 18.04 que trae JetPack usa Python 2.7 como el `python` del s
 
 ### Parte 3: Armar el circuito
 
+![Diagrama de conexión del LED a la Jetson Nano, pin 12 como señal y pin 6 como GND](diagrama_conexion_led_jetson.png)
+
 1. Con la Jetson **apagada**, identifica en el header de 40 pines el pin físico 12 (numeración BOARD) y cualquier pin de tierra (por ejemplo, el pin físico 6).
 2. Conecta el pin 12 a una terminal de la resistencia en el protoboard.
 3. Conecta la otra terminal de la resistencia al ánodo del LED (la pata más larga).
